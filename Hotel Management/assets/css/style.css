@@ -1,0 +1,188 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+#main {
+    margin-top: 50px;
+}
+
+body {
+    background-color: #0E0E0E;
+    margin: auto;
+    width: 690px;
+    margin: 0 auto;
+}
+
+#search_hotel {
+    width: 311px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: inline-block
+}
+
+#find_hotel {
+    display: inline-block;
+    margin-bottom: 258px;
+}
+
+#find_hotel img {
+    display: block;
+}
+
+#info {
+    background-color: aqua;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 26px;
+}
+
+#txt_hotel {
+    border-color: #C0CCDC;
+    border-radius: 5px;
+    text-align: center;
+    width: 89%;
+    display: block;
+    padding: 7px;
+    margin-bottom: 8px;
+    color: #D7DBE2;
+}
+
+#date {
+    border-style: solid;
+    display: inline-block;
+    margin-bottom: 8px;
+    border-color: #C0CCDC;
+    width: 93%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btn_search {
+    border: none;
+    background: none;
+    background-color: #006CFF;
+    color: white;
+    padding: 9px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#checkin_date {
+    border: none;
+    background: none;
+    width: 68px;
+}
+
+#checkout_date {
+    border: none;
+    background: none;
+    width: 68px;
+}
+
+#hotel_logo {
+    margin-left: 10px;
+}
+
+#room_book {
+    width: 311px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px;
+}
+
+#stay {
+    margin-top: 22px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+#room p {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 70;
+}
+
+.adults span {
+    display: inline-block;
+}
+
+.childrens span {
+    display: inline-block;
+}
+
+.value_adult {
+    text-align: right;
+    display: inline-block;
+    width: 81%;
+}
+
+.value_child {
+    text-align: right;
+    display: inline-block;
+    width: 73%;
+}
+
+.room p {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.btn_remove {
+    width: 81%;
+    display: inline-block;
+    text-align: right;
+    border: none;
+    background: none;
+    color: red;
+}
+
+.adults {
+    margin-bottom: 10px;
+}
+
+.childrens {
+    margin-bottom: 10px;
+}
+
+.addchild {
+    margin-bottom: 10px;
+}
+
+.adults button {
+    padding: 3px;
+    color: #98D2FF;
+    font-size: 22px;
+}
+
+.value_child button {
+    padding: 3px;
+    color: #98D2FF;
+    font-size: 22px;
+}
+
+#add_room {
+    margin-bottom: 10px;
+}
+
+#add_room button {
+    color: #296FCA;
+    padding: 10px;
+    width: 98%;
+}
+
+.book button {
+    padding: 10px;
+    border: none;
+    background: none;
+    background-color: blue;
+    width: 98%;
+    color: white;
+}
+
+#customer_details {
+    background-color: white;
+}

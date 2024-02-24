@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <title>HOTEL BOOKING</title>
+</head>
+
+<body>
+    <section id="main">
+        <form>
+            <section id="search_hotel">
+                <div id="find_hotel">
+                    <img src="assets/images/findhotel (1).png" alt="Find_hotel" title="Find_hotel" />
+                </div>
+                <div id="info">
+                    <input type="text" id="txt_hotel" name="txt_hotel" placeholder="Type city,place or hotel name" />
+                    <p id="hotel_error"></p>
+                    <div id="date">
+                        <input type="text" id="checkin_date" name="checkin_date" placeholder="Check-in" />
+                        <span>|</span>
+                        <input type="text" id="checkout_date" name="checkout_date" placeholder="Check-out" />
+                    </div>
+                    <button id="btn_search" type="button">Search</button>
+                </div>
+                <div id="hotel_logo">
+                    <img src="assets/images/hotel-logo (1).png" alt="hotel_logo" title="hotel-logo" />
+                </div>
+            </section>
+            <section id="room_book">
+                <div id="stay">
+                    <p>who is staying</p>
+                </div>
+                <div id="no_of_rooms">
+                    <div id="add_room">
+                        <button type="button" id="btn_add">+ Add Room</button>
+                    </div>
+                </div>
+                <div class="book">
+                    <button type="button" id="btn_book">Book</button>
+                </div>
+            </section>
+            <section id="customer_details">
+                <div class="details">
+                </div>
+            </section>
+        </form>
+    </section>
+
+</body>
+
+</html>
