@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0E0E0E;
+}
+
+.main {
+    margin: auto;
+    width: 500px;
+    background-color: #000000;
+}
+
+.logo {
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-bottom: 9px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.banner img {
+    display: block;
+}
+
+.about {
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 76px;
+    padding-bottom: 46px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: Arial;
+}
+
+.about h1 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.about p {
+    line-height: 23px;
+    margin-bottom: 42px;
+}
+
+.appstore {
+    margin-right: 23px;
+    display: inline-block;
+}
+
+.googleplay {
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.amazonstore {
+    display: inline-block;
+}
+
+.content {
+    padding-right: 44px;
+    padding-top: 86px;
+    padding-bottom: 31px;
+    text-align: left;
+    padding-left: 24px;
+    color: #FFFFFF;
+    background-image: url("../images/Bg-1.jpg");
+    font-family: Arial;
+}
+
+.content h2 {
+    font-size: 31px;
+    padding-bottom: 22px;
+}
+
+.content p {
+    line-height: 24px;
+}
+
+.information p {
+    font-size: 13px;
+}
+
+.contact p {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-bottom: 16px;
+}
+
+.contactapps {
+    padding-bottom: 12px;
+}
+
+.youtube {
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 9px;
+}
+
+.youtube a {
+    display: inline-block;
+}
+
+.details {
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 9px;
+}
+
+.details a {
+    display: inline-block;
+}
+
+.headings a {
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.details img {
+    display: block;
+}
+
+.contact {
+    padding-right: 12px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    font-family: Arial;
+    background-color: black;
+}
+
+.underline {
+    border-top: 1px solid #1E1E1E;
+    width: 438px;
+    padding-bottom: 31px;
+}
+
+.address {
+    padding-top: 17px;
+    display: inline-block;
+    width: 83%;
+}
+
+.address p {
+    color: #808080;
+    width: 32%;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.symbol {
+    display: inline-block;
+}
+
+.symbol a {
+    display: inline-block;
+}
+
+.important p {
+    padding-bottom: 27px;
+}
