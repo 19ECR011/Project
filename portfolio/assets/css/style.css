@@ -1,54 +1,66 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
-    font-family:"Josin Sans", sans-serif;
+    font-family: "Josin Sans", sans-serif;
 }
-body{
+
+body {
     background-color: #0080FF;
 }
-.home{
+
+#home {
     padding-top: 52px;
     padding-bottom: 280px;
     background-color: #F1F3F4;
 }
-header{
-    /* position: fixed;
-    top: 0;
-    left: 0; */
+
+header {
     margin-bottom: 105px;
 }
-.topics{
+
+#menu {
+    display: none;
+}
+
+#topics {
     list-style-type: none;
     display: flex;
     column-gap: 5%;
     justify-content: center;
 }
-.topics li a{
+
+#topics li a {
     text-decoration: none;
     color: #000000;
     display: block;
     font-weight: 600;
     font-size: 18px;
 }
-.topics li a:hover{
+
+#topics li a:hover {
     color: #0B60B0;
 }
-.description h4{
-    color:#030637;
+
+#description h4 {
+    color: #030637;
     font-size: 20px;
 }
-.description h3{
+
+#description h3 {
     color: #0B60B0;
     font-size: 25px;
 }
-.description h2{
+
+#description h2 {
     color: #fff;
     font-size: 60px;
 }
-h2 span{
+
+h2 span {
     color: #FFBB64;
 }
-.description{
+
+#description {
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -56,68 +68,83 @@ h2 span{
     align-items: center;
     row-gap: 30px;
 }
-#about{
+
+#about {
     display: flex;
     background-color: #191919;
     padding-top: 130px;
     padding-bottom: 75px;
     justify-content: space-around;
 }
-.profile img{
+
+#profile img {
     width: 100%;
     max-width: 332px;
     border-radius: 10%;
     display: block;
 }
-.about_content h2{
-    color:#FFFFFF;
+
+#about_content h2 {
+    color: #FFFFFF;
     font-size: 58px;
     margin-bottom: 35px;
+    max-width: 310px;
+    width: 100%;
+
 }
-.about_content h2 span{
+
+#about_content h2 span {
     color: #FFBB64;
 }
-.about_content h3{
-    color:#FFFFFF;
+
+#about_content h3 {
+    color: #FFFFFF;
     font-size: 20px;
     margin-bottom: 35px;
+    max-width: 198px;
+    width: 100%;
 }
-.about_content h3 span{
+
+#about_content h3 span {
     color: #FFBB64;
 }
-.about_content p{
+
+#about_content p {
     font-size: 17px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-bottom: 35px;
     width: 100%;
     max-width: 803px;
     line-height: 2rem;
 }
-.about_content .connect{
-    background: none;
-    border: none;
+
+#about_content #connect {
+    text-decoration: none;
     padding: 13px 13px 13px 13px;
     background-color: #3652AD;
     color: #fff;
-    cursor: pointer;
     border-radius: 9px;
     font-size: 12px;
 }
-.about_content .connect:hover{
-    border:1px solid #B7B8B9 ;
+
+#about_content #connect:hover {
+    border: 1px solid #B7B8B9;
 
 }
-#skills{
+
+#skills {
     padding-top: 72px;
     padding-bottom: 16px;
     background-color: #101010;
 }
-.type_skill{
+
+#type_skill {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#skills h2{
+
+#skills h2 {
     margin: auto;
     max-width: 204px;
     width: 100%;
@@ -125,19 +152,18 @@ h2 span{
     font-size: 58px;
     margin-bottom: 45px;
 }
-.screen{
+
+.screen {
     width: 100%;
     max-width: 240px;
-    background-color:#3D3B40;
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* justify-content: center; */
+    background-color: #3D3B40;
     text-align: center;
     padding-top: 45px;
     padding-bottom: 10px;
     border-radius: 10px;
 }
-.screen h3{
+
+.screen h3 {
     margin: auto;
     width: 100%;
     max-width: 130px;
@@ -145,52 +171,63 @@ h2 span{
     font-size: 20px;
     margin-bottom: 39px;
 }
-.screen p{
+
+.screen p {
     margin: auto;
     color: #FFB375;
     width: 100%;
     max-width: 170px;
     margin-bottom: 34px;
 }
-.web_img{
+
+.web_img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.web_img div{
+
+.web_img div {
     cursor: pointer;
 }
-.web_img img{
+
+.web_img img {
     width: 100%;
     max-width: 81px;
     display: block;
     object-fit: contain;
 }
-.js{
+
+#js {
     margin-top: 5%;
 }
-.web_img img:hover{
-    border: 1px solid #B7B8B9 ;
+
+.web_img img:hover {
+    border: 1px solid #B7B8B9;
 }
-.gitlab{
+
+#gitlab {
     cursor: pointer;
 }
-.gitlab img{
+
+#gitlab img {
     margin: auto;
     width: 100%;
     max-width: 119px;
     display: block;
     object-fit: contain;
 }
-.gitlab img:hover{
-    border: 1px solid #B7B8B9 ;
+
+#gitlab img:hover {
+    border: 1px solid #B7B8B9;
 }
-#projects{
+
+#projects {
     padding-top: 58px;
     padding-bottom: 38px;
     background-color: #1A1A1A;
 }
-#projects h2{
+
+#projects h2 {
     margin: auto;
     max-width: 228px;
     width: 100%;
@@ -198,7 +235,8 @@ h2 span{
     font-size: 58px;
     margin-bottom: 45px;
 }
-.project{
+
+.project {
     background-color: #fff;
     width: 100%;
     max-width: 350px;
@@ -206,33 +244,39 @@ h2 span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    cursor: pointer;
+    text-decoration: none;
     border-radius: 5px;
     margin-bottom: 40px;
     transition: transform 0.3s ease;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.project h4{
+
+.project h4 {
     color: #000000;
     width: 100%;
     max-width: 107px;
 }
-.project img{
+
+.project img {
     max-width: 150px;
     width: 100%;
     max-height: 100px;
-    object-fit:contain;
+    object-fit: contain;
 }
-.project:hover{
-    transform: translateY(-20px); 
+
+.project:hover {
+    transform: translateY(-20px);
     box-shadow: 0 0 10px 10px #D0C783;
 }
-#contact{
+
+#contact {
     padding-top: 61px;
-    background-color:#3D3B40;
+    background-color: #3D3B40;
+    padding-bottom: 20px;
 }
-#contact h2{
+
+#contact h2 {
     margin: auto;
     max-width: 313px;
     width: 100%;
@@ -240,22 +284,27 @@ h2 span{
     font-size: 58px;
     margin-bottom: 45px;
 }
-#contact h2 span{
+
+#contact h2 span {
     color: #FFBB64;
 }
- form{
-    width:100%;
+
+form {
+    width: 100%;
     max-width: 450px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     row-gap: 2rem;
-    margin:auto;
+    margin: auto;
+    margin-bottom: 33px;
 }
-form input{
+
+form input {
     line-height: 3em;
 }
-form #submit{
+
+form #submit {
     max-width: 110px;
     width: 100%;
     font-size: 16px;
@@ -266,20 +315,271 @@ form #submit{
     line-height: 2em;
     cursor: pointer;
     font-weight: 600;
-    margin-bottom: 33px;
 }
-form #submit:hover{
+
+form #submit:hover {
     background: aqua;
-    border:1px solid aqua;
+    border: 1px solid aqua;
     line-height: 2em;
 }
-.icon{
-    display:flex;
+
+#icon {
+    display: flex;
     justify-content: center;
     column-gap: 2%;
 }
-.icon i{
+
+#icon a {
     font-size: 27px;
     color: aquamarine;
-    cursor:pointer;
+    text-decoration: none;
+}
+
+#icon i {
+    display: block;
+}
+
+@media screen and (max-width: 1199px) {
+    header {
+        margin-bottom: 140px;
+    }
+
+    #topics {
+        column-gap: 4%;
+    }
+
+    #topics li a {
+        font-size: 16px;
+    }
+
+    #description h4 {
+        font-size: 19px;
+    }
+
+    #description h2 {
+        font-size: 50px;
+    }
+
+    #description h3 {
+        font-size: 23px;
+    }
+
+    #about {
+        justify-content: center;
+        column-gap: 3%;
+    }
+
+    #profile img {
+        max-width: 239px;
+        border-radius: 8%;
+    }
+
+    #about_content h2 {
+        font-size: 55px;
+        margin-bottom: 20.6px;
+        max-width: 294px;
+    }
+
+    #about_content h3 {
+        font-size: 18px;
+        margin-bottom: 20.6px;
+        max-width: 179px;
+    }
+
+    #about_content p {
+        font-size: 15px;
+        margin-bottom: 20.6px;
+        max-width: 464px;
+        line-height: 1.5rem;
+    }
+
+    #skills h2 {
+        margin: auto;
+        max-width: 195px;
+        width: 100%;
+        color: #fff;
+        font-size: 55px;
+        margin-bottom: 45px;
+    }
+
+    .screen {
+        width: 100%;
+        max-width: 219px;
+        background-color: #3D3B40;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .screen h3 {
+        max-width: 119px;
+        font-size: 18px;
+    }
+
+    .screen p {
+        max-width: 146px;
+        font-size: 15px;
+    }
+
+    .web_img img {
+        max-width: 73px;
+    }
+
+    #gitlab img {
+        max-width: 110px;
+    }
+
+    #projects h2 {
+        max-width: 217px;
+        font-size: 55px;
+    }
+
+    .project {
+        max-width: 400px;
+    }
+
+    #contact h2 {
+        max-width: 297px;
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #description h2 {
+        font-size: 27px;
+    }
+
+    #description h4 {
+        font-size: 18px;
+    }
+
+    #description h3 {
+        font-size: 19px;
+    }
+
+    #menu {
+        color: #000000;
+        cursor: pointer;
+        display: block;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none !important;
+        min-width: 160px;
+        position: absolute;
+        background-color: #f1f1f1;
+    }
+
+    .show {
+        display: block !important;
+    }
+
+    #topics {
+        margin-left: 10px;
+    }
+
+    #topics li {
+        background-color: burlywood;
+        border: 1px solid #000;
+    }
+
+    #topics li:hover {
+        background-color: #B7B8B9;
+    }
+
+
+
+    #topics li a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #about {
+        padding-top: 50px;
+    }
+
+    #profile img {
+        margin: auto;
+    }
+
+    #profile {
+        margin-bottom: 3%;
+    }
+
+    #about_content {
+        margin: auto;
+    }
+
+    #about_content h2 {
+        font-size: 35px;
+        margin-bottom: 20.6px;
+        max-width: 187px;
+    }
+
+    #about_content h3 {
+        font-size: 16px;
+        margin-bottom: 20.6px;
+        max-width: 179px;
+    }
+
+    #about_content p {
+        font-size: 14px;
+        margin-bottom: 20.6px;
+        max-width: 464px;
+        line-height: 1.5rem;
+    }
+
+    #profile img {
+        max-width: 140px;
+    }
+
+    #skills h2 {
+        max-width: 121px;
+        font-size: 34px;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+
+    #type_skill {
+        flex-direction: column;
+    }
+
+    .screen {
+        margin: auto;
+        margin-bottom: 3%;
+    }
+
+    #projects h2 {
+        max-width: 134px;
+        font-size: 34px;
+    }
+
+    .project {
+        max-width: 300px;
+    }
+
+    #contact h2 {
+        max-width: 184px;
+        font-size: 34px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #icon {
+        column-gap: 3%;
+    }
+
 }
